@@ -16,7 +16,7 @@ In Jupyter, start a new terminal and run
 python server.py
 
 
-When using notebook, paste the client.py to start
+When using notebook, add the code from client.py to start
 
 
 feappv('someString') in notebook will now send the string to server, and the server will return hello world ! 
