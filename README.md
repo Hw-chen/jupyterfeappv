@@ -19,4 +19,4 @@ python server.py
 When using notebook, paste the client.py to start
 
 
-Now feappv('someString') in notebook will send the string and for now, the server will return hello world ! 
+feappv('someString') in notebook will now send the string to server, and the server will return hello world ! 
