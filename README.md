@@ -5,18 +5,15 @@ To Build Docker Image
 
 docker build -t imageName .
 
-
 To Run 
 
 docker run -p 8888:8888 imageName
 
 
-In Jupyter, start a new terminal and run 
+In Jupyter, frirst run server.py in a new terminal 
 
-python server.py
-
-
-When using notebook, add the code from client.py to start
+When using notebook, import client to use methods 
 
 
-feappv('someString') in notebook will now send the string to server, and the server will return hello world ! 
+client.feappv('someString') in notebook will now send the string to server, and the server will return hello world ! 
+client.feappvDraw() will dispaly an example image on notebook
