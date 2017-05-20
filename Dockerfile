@@ -41,15 +41,11 @@ RUN unzip feappv31.zip \
  && cd ver31 \
  && make install
 
+
+
 WORKDIR /home/jovyan/work
 COPY server.py server.py
 COPY client.py client.py
+COPY example.jpg example.jpg
 
-
-
-
-
-
-
-
-
+EXPOSE 8000
