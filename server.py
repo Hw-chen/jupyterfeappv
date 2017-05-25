@@ -29,7 +29,6 @@ while True:
                     print (path)
                     c.send(path.encode())
                 else:
-                    print ('here')
                     c.send('Hello World !'.encode())                 
                 #subprocess.run(["/feappv/ver31/main/feappv"])
             else:
