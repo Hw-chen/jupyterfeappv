@@ -10,7 +10,7 @@ To Run
 docker run -p 8888:8888 imageName
 
 
-In Jupyter, frirst run server.py in a new terminal 
+In Jupyter, first run server.py in a new terminal 
 
 When using notebook, import client to use methods 
 
